@@ -386,7 +386,7 @@ h1,h2,h3{letter-spacing:-.9px}
       </span>
     </a>
     <nav class="nav">
-      <a href="#courses">Courses</a>
+      <a href="COURSE.html">Courses</a>
       <a href="#how">How it works</a>
       <a href="#ecosystem">Ecosystem</a>
       <a href="https://nexura-m.github.io/SIMPLILEARN/" target="_blank" rel="noopener">Portal</a>
@@ -395,6 +395,10 @@ h1,h2,h3{letter-spacing:-.9px}
       <a class="btn btn-ghost btn-sm" href="https://nexura-m.github.io/SIMPLILEARN/" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg>
         <span>Verify ID</span>
+      </a>
+       <a class="btn btn-ghost btn-sm" href="COURSE.html" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg>
+        <span>COURSES</span>
       </a>
       <a class="btn btn-primary btn-sm" href="MONEY.html">
         Buy ID · ₹500
@@ -421,6 +425,10 @@ h1,h2,h3{letter-spacing:-.9px}
             <a class="btn btn-primary btn-lg" href="MONEY.html">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="13" rx="2"/><path d="M2 10h20"/></svg>
               Buy Verified ID — ₹500
+            </a>
+             <a class="btn btn-primary btn-lg" href="COURSE.html">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="13" rx="2"/><path d="M2 10h20"/></svg>
+              LEARN COURSE
             </a>
             <a class="btn btn-ghost btn-lg" href="https://nexura-m.github.io/SIMPLILEARN/" target="_blank" rel="noopener">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
@@ -489,7 +497,7 @@ h1,h2,h3{letter-spacing:-.9px}
           <div class="step-ic">🎓</div>
           <h3>Learn &amp; Get Certified</h3>
           <p>Unlock one course, complete every lesson, and download your verified certificate.</p>
-          <a href="SIMPLILEARN.html">Browse courses →</a>
+          <a href="COURSE.html">Browse courses →</a>
         </article>
       </div>
     </div>
@@ -505,6 +513,8 @@ h1,h2,h3{letter-spacing:-.9px}
           <p>Your verified ID unlocks exactly one full course — permanently. Choose wisely.</p>
         </div>
         <a class="btn btn-ghost" href="MONEY.html">Get Verified ID →</a>
+        <a class="btn btn-ghost" href="COURSE.html">LEARN COURSE →</a>
+
       </div>
 
       <div class="courses">
@@ -814,7 +824,7 @@ h1,h2,h3{letter-spacing:-.9px}
       </div>
       <div class="foot-col">
         <h4>Learn</h4>
-        <a href="#courses">All courses</a>
+        <a href="COURSE.html">All courses</a>
         <a href="#how">How it works</a>
         <a href="https://nexura-m.github.io/SIMPLILEARN/" target="_blank" rel="noopener">Learner portal</a>
         <a href="MONEY.html">Buy verified ID</a>
@@ -831,6 +841,7 @@ h1,h2,h3{letter-spacing:-.9px}
         <a href="#top">Home</a>
         <a href="#ecosystem">Powered by</a>
         <a href="MONEY.html">Checkout</a>
+        <a href="COURSE.html">Checkout</a>
         <a href="https://nexura-m.github.io/SIMPLILEARN/" target="_blank" rel="noopener">Verify ID</a>
       </div>
     </div>
@@ -848,7 +859,6 @@ h1,h2,h3{letter-spacing:-.9px}
 
 <script>
 document.getElementById('yr').textContent = new Date().getFullYear();
-
 /* smooth internal anchors */
 document.querySelectorAll('a[href^="#"]').forEach(a => {
   a.addEventListener('click', e => {
@@ -861,7 +871,6 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
     }
   });
 });
-
 /* tiny reveal-on-scroll */
 const revealEls = document.querySelectorAll('.course, .step, .eco-card, .hero-card, .cta-banner');
 if ('IntersectionObserver' in window){
