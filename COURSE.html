@@ -3,14 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>SIMPLILEARN — by Devil Developers</title>
+<title>SIMPLELEARN — by Devil Developers</title>
 <link rel="icon" type="image/png" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4rV2QL0PdHVm8PZAQbPKvure_YQSl_Et2oKeJMK8U5g&s=10">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
 <style>
 /* ============================================================
-   SIMPLILEARN — Created by Devil Developers
+   SIMPLELEARN — Created by Devil Developers
    ============================================================ */
 *{box-sizing:border-box;margin:0;padding:0}
 :root{
@@ -537,9 +537,9 @@ img{max-width:100%}
 <header class="topbar">
   <div class="topbar-in">
     <a class="brand" href="#" id="brandHome">
-      <span class="logo"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4rV2QL0PdHVm8PZAQbPKvure_YQSl_Et2oKeJMK8U5g&s=10" alt="SIMPLILEARN" referrerpolicy="no-referrer" onerror="this.style.display='none';this.parentElement.innerHTML='<b style=&quot;color:#5b4bff;font-size:18px&quot;>S</b>'"></span>
+      <span class="logo"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4rV2QL0PdHVm8PZAQbPKvure_YQSl_Et2oKeJMK8U5g&s=10" alt="SIMPLELEARN" referrerpolicy="no-referrer" onerror="this.style.display='none';this.parentElement.innerHTML='<b style=&quot;color:#5b4bff;font-size:18px&quot;>S</b>'"></span>
       <span>
-        <b>SIMPLILEARN</b>
+        <b>SIMPLELEARN</b>
         <small>by Devil Developers</small>
       </span>
     </a>
@@ -554,7 +554,7 @@ img{max-width:100%}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 <script>
 /* =====================================================================
-   SIMPLILEARN — Created by Devil Developers
+   SIMPLELEARN — Created by Devil Developers
    ===================================================================== */
 
 /* ---------- config ---------- */
@@ -811,12 +811,12 @@ function renderLogin(){
             <img src="${LOGO}" alt="" referrerpolicy="no-referrer"
               onerror="this.style.display='none';this.parentElement.innerHTML='<b style=&quot;color:#fff;font-size:18px&quot;>S</b>'">
           </span>
-          <div><b>SIMPLILEARN</b><small>by Devil Developers</small></div>
+          <div><b>SIMPLELEARN</b><small>by Devil Developers</small></div>
         </div>
         <div class="art-copy">
           <div class="art-eyebrow">LEARN · BUILD · GET CERTIFIED</div>
           <h1 class="art-title">One verified ID.<br><span class="grad">One course.</span><br>A lifetime of skill.</h1>
-          <p class="art-sub">Unlock a world-class course, track every lesson, and earn a modern verified certificate issued by SIMPLILEARN.</p>
+          <p class="art-sub">Unlock a world-class course, track every lesson, and earn a modern verified certificate issued by SIMPLELEARN.</p>
           <div class="art-features">
             <div class="art-feature"><i>✓</i><span>ID-verified access — only approved learners get in</span></div>
             <div class="art-feature"><i>✓</i><span>Unlock one full course permanently per ID</span></div>
@@ -833,7 +833,7 @@ function renderLogin(){
       <div class="auth-form">
         <div class="form-eyebrow">WELCOME BACK</div>
         <h2>Enter your learner ID</h2>
-        <p class="form-sub">Your ID is checked against the SIMPLILEARN registry. Only verified IDs can access courses.</p>
+        <p class="form-sub">Your ID is checked against the SIMPLELEARN registry. Only verified IDs can access courses.</p>
         <form id="loginForm" novalidate>
           <label class="field">
             <span>LEARNER ID</span>
@@ -890,7 +890,7 @@ async function verifyId(id){
     App.session = { id };
     LS.set(K.session, App.session);
     loadUserData();
-    toast('ID verified — welcome to SIMPLILEARN', 'ok');
+    toast('ID verified — welcome to SIMPLELEARN', 'ok');
     renderDashboard();
   } else {
     renderDenied(id, status);
@@ -910,7 +910,7 @@ function renderDenied(id, status){
       <div class="denied-icon">🔒</div>
       <div class="eyebrow danger">ACCESS RESTRICTED</div>
       <h1>THIS TIME YOUR<br><span>ID IS NOT VERIFIED</span></h1>
-      <p>We could not verify <b>${esc(id)}</b> against the SIMPLILEARN registry.</p>
+      <p>We could not verify <b>${esc(id)}</b> against the SIMPLELEARN registry.</p>
       <div class="denied-status">STATUS: <b>${label}</b></div>
       <div class="row">
         <button class="btn btn-primary" id="retry">Try another ID →</button>
@@ -1001,7 +1001,7 @@ function renderDashboard(){
       ${rest.map(courseCard).join('')}
     </div>
 
-    <footer class="foot">SIMPLILEARN · Created by <b>Devil Developers</b><br>Certificates verified by learner ID</footer>
+    <footer class="foot">SIMPLELEARN · Created by <b>Devil Developers</b><br>Certificates verified by learner ID</footer>
   </div>`;
 
   if (unlockedCourse){
@@ -1530,7 +1530,7 @@ function certMarkup(cert, url){
             <img src="${LOGO}" alt="" referrerpolicy="no-referrer" onerror="this.style.display='none'">
           </span>
           <div>
-            <b>SIMPLILEARN</b>
+            <b>SIMPLELEARN</b>
             <small>by Devil Developers</small>
           </div>
         </div>
@@ -1556,7 +1556,7 @@ function certMarkup(cert, url){
           <span>Program Director</span>
         </div>
         <div class="cert-qr">${qrHTML(cert.certId + cert.learnerId)}</div>
-        <div class="cert-seal"><div>VERIFIED<br><small>SIMPLILEARN</small></div></div>
+        <div class="cert-seal"><div>VERIFIED<br><small>SIMPLELEARN</small></div></div>
       </div>
 
       <div class="cert-url">${esc(url)}</div>
@@ -1572,7 +1572,7 @@ function renderCertificate(cert){
   const url = location.href.split('#')[0] + '#verify=' + b64enc(cert);
 
   setTopActions(publicMode
-    ? '<button class="btn btn-ghost btn-sm" id="goPortal">Go to SIMPLILEARN →</button>'
+    ? '<button class="btn btn-ghost btn-sm" id="goPortal">Go to SIMPLELEARN →</button>'
     : '<button class="btn btn-ghost btn-sm" id="backDash2">← Dashboard</button>');
 
   if (publicMode){
@@ -1595,7 +1595,7 @@ function renderCertificate(cert){
           <div class="eyebrow">${publicMode ? 'PUBLIC VERIFICATION' : 'CERTIFICATE ISSUED'}</div>
           <h1>${publicMode ? 'Verified certificate' : 'Your certificate is ready 🎓'}</h1>
           <p>${publicMode
-            ? 'This certificate was issued by SIMPLILEARN and verified against the learner ID.'
+            ? 'This certificate was issued by SIMPLELEARN and verified against the learner ID.'
             : 'Download it, share the verification link, or keep learning.'}</p>
         </div>
       </div>
@@ -1606,7 +1606,7 @@ function renderCertificate(cert){
         <button class="btn btn-primary" id="dlCert">⬇ Download Certificate</button>
         <button class="btn btn-ghost" id="copyVerify">🔗 Copy Verification Link</button>
         ${publicMode
-          ? '<button class="btn btn-ghost" id="goPortal2">Go to SIMPLILEARN →</button>'
+          ? '<button class="btn btn-ghost" id="goPortal2">Go to SIMPLELEARN →</button>'
           : '<button class="btn btn-ghost" id="backDash3">← Dashboard</button>'}
       </div>
 
@@ -1656,7 +1656,7 @@ async function downloadCert(cert){
     }
 
     const a = document.createElement('a');
-    a.download = 'SIMPLILEARN-' + cert.certId + '.png';
+    a.download = 'SIMPLELEARN-' + cert.certId + '.png';
     a.href = canvas.toDataURL('image/png');
     a.click();
     toast('Certificate downloaded', 'ok');
